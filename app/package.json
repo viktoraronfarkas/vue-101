@@ -1,5 +1,5 @@
 {
-  "name": "vue-101",
+  "name": "vite-project",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
