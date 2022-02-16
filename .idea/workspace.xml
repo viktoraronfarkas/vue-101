@@ -5,15 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Pokemon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/lib/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/calculator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/Pokedex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Pokedex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +35,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/public" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
@@ -69,11 +67,22 @@
       <workItem from="1636042573876" duration="1900000" />
       <workItem from="1636045800290" duration="146000" />
       <workItem from="1636045951018" duration="3989000" />
-      <workItem from="1644960429931" duration="7552000" />
+      <workItem from="1644960429931" duration="8713000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
