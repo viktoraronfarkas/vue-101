@@ -9,8 +9,8 @@ export default defineConfig({
   // We alias vue references to a seperate vue build to make sure Vue-Router is working
   resolve: {
     alias: {
+      '@': path.resolve(__dirname, './src'),
       vue: 'vue/dist/vue.esm-bundler.js',
-      '@': path.resolve(__dirname, '/src'),
     },
   },
 });

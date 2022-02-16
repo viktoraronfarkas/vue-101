@@ -1,0 +1,162 @@
+body button:focus{
+  outline: 0;
+}
+
+.container{
+  margin: auto;
+}
+
+#wrap{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -10%);
+  text-align: center;
+  margin-top: 100px;
+}
+
+#wrap h1{
+  margin-top: 2vh;
+  font-size: 4vw;
+}
+
+#wrap h2{
+  margin-top: 5vh;
+  margin-bottom: 1.5vh;
+  font-size: 2.8vw;
+}
+
+#diffSelCont button{
+  display:inline-block;
+  background-color: inherit;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-size: 1.5vw;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+#diffSelCont button:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
+#diffSelCont button:focus{
+  outline: 0;
+}
+
+
+#diffSelCont button:hover:enabled{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
+#diffSelCont button:disabled{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
+#diffSelCont p{
+  margin: 2vh auto;
+  width: 6vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#calcCont{
+  width: 19vw;
+  min-width: 210px;
+  height: 55vh;
+  margin: 4vh auto;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: #55E;
+  box-shadow: 9px 3px #222;
+}
+
+#screen{
+  overflow: hidden;
+  margin: 3vh auto;
+  width: 17vw;
+  height: 6vh;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 17px;
+  background-color: #AAF;
+}
+
+#screen p{
+  font-family: 'LCD14';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 3vh;
+  margin: 1.5vh auto;
+}
+
+#buttonsCont {
+  margin: 8vh auto 1vh;
+  width: 17vw;
+  height: 31vh;
+}
+
+.calcBut{
+  width: 3.9vw;
+  height: 4.5vh;
+  margin: 1vh auto;
+  font-family: 'Crimson Text', serif;
+  font-size: 2.7vh;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #888;
+  box-shadow: 2px 1px #222;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.calcBut:active{
+  position: relative;
+  top: 1px;
+  left: 1px;
+  box-shadow: 1px 1px #222;
+}
+
+.upperRow{
+  background-color: #444;
+}
+
+#equal{
+  background-color: #F30;
+}
+
+#zero{
+  width: 12.5vw;
+}
+
+footer{
+  width: 95vw;
+  max-width: 100%;
+  height: 50px;
+  font-style: italic;
+}
+
+footer a{
+  float: right;
+  text-decoration: none;
+  color: darkorange;
+  margin: 5px 5px;
+}
+
+footer a:hover{
+  color: blueviolet;
+}

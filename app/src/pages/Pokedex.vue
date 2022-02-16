@@ -1,34 +1,47 @@
 <script>
-import Pokemon from '@/components/Pokemon.vue';
+import Pokeman from '@/components/Pokeman.vue';
 
 export default {
+  components: {
+    Pokeman,
+  },
+
   data() {
     return {
       list: [],
     };
   },
 
-  components: {
-    Pokemon,
-  },
+  async mounted() {
+    const localData = localStorage.getItem('pokemon');
 
-  methods: {
-    async fetchPokemon() {
-      const url = 'https://pokeapi.co/api/v2/pokemon?limit=151';
+    if (localData) {
+      console.log('from storage');
+      return (this.list = JSON.parse(localData));
+    }
 
-      const data = await fetch(url);
-      const pokemon = await data.json();
+    const url = 'https://pokeapi.co/api/v2/pokemon?limit=151';
 
-      this.list = pokemon.results;
-    },
+    const data = await fetch(url);
+    const pokemon = await data.json();
+
+    localStorage.setItem('pokemon', JSON.stringify(pokemon.results));
+
+    console.log('from fetch');
+    this.list = pokemon.results;
   },
 };
 </script>
 
 <template>
-  <h1>Pokedex</h1>
+  <div>
+    <h1>Pokedex</h1>
 
-  <button @click="fetchPokemon">Catch Pokemon</button>
-
-  <Pokemon v-for="(item, index) in list" :key="index" :pokemon="item" />
+    <Pokeman
+      v-for="(item, index) in list"
+      :key="index"
+      :name="item.name"
+      :index="index"
+    />
+  </div>
 </template>
