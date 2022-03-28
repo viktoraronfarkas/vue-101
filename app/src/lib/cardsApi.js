@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'redaxios';
 
 const BASE_URL = 'https://deckofcardsapi.com/api';
 
